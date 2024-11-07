@@ -5,27 +5,39 @@ body {
   color: #494949;
   font-family: "Times New Roman";
 }
-/* write a media query for desktop 
-MOBILE FIRST APPROACH!!!!!! */
-/* @media() {
-} */
+@media (max-width: 1600px) {
+  body {
+    background-repeat: repeat;
+    background-position: center;
+  }
+}
+
 .title {
   font-family: "Dancing Script", cursive;
   font-size: 96px;
 }
+@media (max-width: 1025px) {
+  .title {
+    font-size: 75px;
+  }
+}
+@media (max-width: 481px) {
+  .title {
+    font-size: 50px;
+  }
+}
+
 .margin-top-page {
-  margin-top: 170px;
+  margin-top: 120px;
 }
 
 .swiper {
-  width: 600px;
   height: 220px;
   margin-top: 130px;
 }
 
 .swipper-image {
   width: 100px;
-  /* height: 100%; */
 }
 
 .swiper-slide {
