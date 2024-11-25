@@ -11,6 +11,11 @@ body {
     background-position: center;
   }
 }
+@media (max-width: 1025px) {
+  body {
+    font-size: 8px;
+  }
+}
 
 .title {
   font-family: "Dancing Script", cursive;
