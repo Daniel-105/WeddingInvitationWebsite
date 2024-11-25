@@ -60,6 +60,11 @@ body {
   font-style: normal;
   margin-bottom: 0;
 }
+@media (max-width: 1025px) {
+  .tangerine-font-quinta {
+    font-size: 70px !important;
+  }
+}
 
 .tangerine-font-date {
   font-family: "Tangerine", cursive;
