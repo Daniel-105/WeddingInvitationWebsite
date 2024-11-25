@@ -36,8 +36,8 @@ body {
   }
 }
 .swiper {
-  height: 220px;
-  margin-top: 60px;
+  height: 180px;
+  margin-top: 30px;
 }
 
 .swipper-image {
@@ -51,4 +51,25 @@ body {
 }
 .orange-color {
   color: #c88857;
+}
+
+.tangerine-font-quinta {
+  font-family: "Tangerine", cursive;
+  font-weight: 400;
+  font-size: 90px !important;
+  font-style: normal;
+  margin-bottom: 0;
+}
+
+.tangerine-font-date {
+  font-family: "Tangerine", cursive;
+  font-weight: 400;
+  font-size: 60px !important;
+  font-style: normal;
+}
+
+.borel-font {
+  font-family: "Borel", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
