@@ -30,8 +30,7 @@ body {
 .margin-top-page {
   margin-top: 60px;
 }
-
-@media (max-width: 481px) {
+@media (max-width: 1025px) {
   .margin-top-page {
     margin-top: 10px;
   }
